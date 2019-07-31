@@ -1,3 +1,11 @@
+
+dist/
+functions/node_modules/
+tools/node_modules/
+videos/
+.firebase/
+
+
 # Logs
 logs
 *.log
