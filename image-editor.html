@@ -1,0 +1,46 @@
+
+<style>
+
+  :host {
+    display: 	 block;
+    position:  relative;
+    width:   	 100%;
+    max-width: 414px;
+    background-color:             var(--app-background-color);
+    --drop-zone-background-color: var(--app-light-color);
+  }
+
+  #save-btn {
+  	width:  					100%;
+    margin:           16px 0px;
+    color:            white;
+    background-color: var(--app-accent-color);
+  }
+
+  #save-btn[disabled] {
+    color:            var(--disabled-text-color);
+    background-color: var(--app-disabled-color);
+  }
+
+</style>
+
+
+<file-uploader id="uploader"
+               accept="image"
+							 coll="[[_tempColl]]" 
+							 doc="[[doc]]" 
+							 field="[[field]]" 
+							 multiple="[[multiple]]"
+							 on-data-changed="__fileDataChanged"               
+               on-file-deleted="__fileDeleted">
+</file-uploader>   
+    
+<paper-button id="save-btn" 
+              disabled="[[!_ready]]"
+              hidden="[[noSaveButton]]" 
+              raised
+              on-click="__saveBtnClicked">
+  save
+</paper-button>
+
+<app-spinner id="spinner"></app-spinner>
