@@ -2,16 +2,19 @@
 <style>
 
   :host {
-    display: 	 block;
+    display:   block;
     position:  relative;
-    width:   	 100%;
+    width:     100%;
     max-width: 414px;
-    background-color:             var(--app-background-color);
-    --drop-zone-background-color: var(--app-light-color);
+    --dz-background-color: var(--app-light-color);
+  }
+
+  #uploader {
+    --drop-zone-background-color: var(--dz-background-color);
   }
 
   #save-btn {
-  	width:  					100%;
+    width:            100%;
     margin:           16px 0px;
     color:            white;
     background-color: var(--app-accent-color);
@@ -27,11 +30,11 @@
 
 <file-uploader id="uploader"
                accept="image"
-							 coll="[[_tempColl]]" 
-							 doc="[[doc]]" 
-							 field="[[field]]" 
-							 multiple="[[multiple]]"
-							 on-data-changed="__fileDataChanged"               
+               coll="[[_tempColl]]" 
+               doc="[[doc]]" 
+               field="[[field]]" 
+               multiple="[[multiple]]"
+               on-data-changed="__fileDataChanged"               
                on-file-deleted="__fileDeleted">
 </file-uploader>   
     
