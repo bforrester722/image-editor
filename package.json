@@ -1,6 +1,6 @@
 {
   "name": "@spriteful/image-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Handles adding/removing image files to a project",
   "main": "image-editor.js",
   "scripts": {
