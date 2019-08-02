@@ -556,10 +556,10 @@
     "@polymer/polymer" "^3.2.0"
     "@spriteful/utils" "^1.2.4"
 
-"@spriteful/file-uploader@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@spriteful/file-uploader/-/file-uploader-1.1.1.tgz#bad3df3b7bade13820d6e5f7bfeccd3c087a8c1d"
-  integrity sha512-XZHM9ohh+VaIqvAeXmyjO1zKptAtGrLxiB7a22MWMHS0VXQ6EssGzoWQMFa+6wnegAV5hHzYxs+oKgz69HXvnA==
+"@spriteful/file-uploader@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@spriteful/file-uploader/-/file-uploader-1.1.2.tgz#a5507e12e82323b80a1c263079780fb0e2f1b6a2"
+  integrity sha512-amRUwr5Hq8zJJFHKcWGNJHQUWxODMP6+zTKJPsouRefePyn/CSw3eQQ0BuFPeheDuVNMHRF36DFWWJyGaIlxhg==
   dependencies:
     "@polymer/iron-icon" "^3.0.1"
     "@polymer/iron-image" "^3.0.2"

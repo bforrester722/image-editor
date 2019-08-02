@@ -20,7 +20,7 @@
     "@polymer/paper-button": "^3.0.1",
     "@polymer/polymer": "^3.3.0",
     "@spriteful/app-spinner": "^1.0.0",
-    "@spriteful/file-uploader": "^1.1.1",
+    "@spriteful/file-uploader": "^1.1.2",
     "@spriteful/services": "^2.1.7",
     "@spriteful/spriteful-element": "^1.0.4",
     "@spriteful/utils": "^1.2.4"
