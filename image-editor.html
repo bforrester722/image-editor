@@ -6,7 +6,9 @@
     position:  relative;
     width:     100%;
     max-width: 414px;
-    --dz-background-color: var(--app-light-color);
+    --dz-background-color:          var(--app-light-color);
+    --save-button-background-color: var(--app-accent-color);
+    --save-button-color:            var(--constant-light-text, white);
   }
 
   #uploader {
@@ -15,9 +17,9 @@
 
   #save-btn {
     width:            100%;
-    margin:           16px 0px;
-    color:            white;
-    background-color: var(--app-accent-color);
+    margin:           32px 0px;
+    color:            var(--save-button-color);
+    background-color: var(--save-button-background-color);
   }
 
   #save-btn[disabled] {
