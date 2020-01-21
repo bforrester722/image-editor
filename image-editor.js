@@ -260,6 +260,7 @@ class SpritefulImageEditor extends SpritefulElement {
       await this.__save();
       const text = this.multiple ? 'Images' : 'Image';
       message(`${text} saved.`);
+      this.fire('image-editor-save-complete');
       await schedule();
     }
     catch (error) { 
